@@ -127,7 +127,7 @@ if __name__ == '__main__':
     soln_df.to_csv('commtr_a_soln.csv')
     # Plot charger timelines
     plot_charger_timelines(soln_df, datetime(2024, 4, 3), True, False,
-                           'Charger Timeline at {}')
+                           'Scenario A: Charger Timeline at {}')
 
     # Run Scenario B
     soln_df_b = run_multi_charger_case(
@@ -138,7 +138,7 @@ if __name__ == '__main__':
     soln_df_b.to_csv('commtr_b_soln.csv')
     # Plot charger timelines
     plot_charger_timelines(soln_df_b, datetime(2024, 4, 3), True, False,
-                           'Charger Timeline at {}')
+                           'Scenario B: Charger Timeline at {}')
 
 
 
