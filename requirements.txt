@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+plotly
+gurobipy==11.0.3
+openrouteservice
+setuptools
+python-dotenv
+ipykernel
