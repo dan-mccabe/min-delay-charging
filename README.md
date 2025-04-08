@@ -33,9 +33,11 @@ pip install -r requirements.txt
 
 Then, install the `min_delay_charging` package from the root directory:
 
-`pip install .`
+```
+pip install -e .
+```
 
-This step is important to ensure you can import functions and classes from `min_delay_charging`. It will also automatically unzip the GTFS data included with the repository into its expected location so that you can run the King County case study with the proper input data.
+This step is important to ensure you can import functions and classes from `min_delay_charging`. It will also automatically unzip the GTFS data included with the repository into its expected location so that you can run the King County case study with the proper input data. The `-e` flag allows you to edit the package contents if desired and not have to reinstall the package.
 
 ## Running Case Studies
 With your Python environment configured as above, the case study scripts should run smoothly. You can run them from the command line:
